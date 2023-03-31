@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>survey page</title>
+        <link rel="stylesheet" href="survey.css">
+    </head>
+    <dody>
+        <center><h1>GeeksforGeeks Survey Form</h1></center>
+        <form id="f">
+            <label>Name<br><input type="text" placeholder="Enter your name" style="width:100%" class="i"></label><br><br>
+            <label>Email<br><input type="email" placeholder="Enter your email" style="width:100%;"></label><br><br>
+            <label>Age<br><input type="number" placeholder="Enter your age" style="width:100%;"></label><br><br>
+            <label>Which option best describes you?<br>
+                <select name="word" id="words" style="width:100%">
+                    <option value="student">student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">professional</option>
+                    <option value="others">others</option>
+                </select><br><br>
+            </label>
+            <label>Would you recommend GeeksforGeeks to a friend?<br>
+                <label><input type="radio" name="y">Yes</label><br><br>
+                <label><input type="radio" name="y">No</label><br><br>
+                <label><input type="radio" name="y">May be</label><br>
+            </label><br><br>
+            <label>Languages and Frameworks known(check all that apply)<br>
+                <label><input type="checkbox" value="c">C</label><br><br>
+                <label><input type="checkbox" value="c++">C++</label><br><br>
+                <label><input type="checkbox" value="c#">C#</label><br><br>
+                <label><input type="checkbox" value="java">Java</label><br><br>
+                <label><input type="checkbox" value="python">Python</label><br><br>
+                <label><input type="checkbox" value="Javascript">Javascripe</label><br><br>
+                <label><input type="checkbox" value="react">React</label><br><br>
+                <label><input type="checkbox" value="angular">Angular</label><br><br>
+                <label><input type="checkbox" value="django">Django</label><br><br>
+                <label><input type="checkbox" value="sparing">Spring</label><br><br>
+            </label><br><br>
+            <label>Any comments and suggestions<br>
+                <textarea rows="3" cols="100" id="i"></textarea>
+            </label><br><br>
+            <label><input type="button" value="submit" style="background-color: #05c46b;width:100%;"></label>
+        </form>
+    </dody>
+</html>
